@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         siguiente.setOnClickListener {
 
-            val intent = Intent( this@MainActivity, Main2Activity::class.java)
+            val intent = Intent( this@MainActivity, Main3Activity::class.java)
 
             startActivity(intent)    }
 
