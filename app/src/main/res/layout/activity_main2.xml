@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Main2Activity">
 
     <Button
         android:id="@+id/btnsiguiente2"
@@ -32,8 +32,8 @@
         android:layout_height="match_parent"
         android:background="#FBECEC"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="16dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-96dp">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -65,180 +65,17 @@
         app:layout_constraintVertical_bias="0.13999999" />
 
     <ListView
-        android:id="@+id/lista1"
-        android:layout_width="362dp"
-        android:layout_height="108dp"
-        android:saveEnabled="false"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        android:id="@+id/listaa"
+        android:layout_width="276dp"
+        android:layout_height="198dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texto1"
-        app:layout_constraintVertical_bias="0.07999998">
-
-    </ListView>
-
-    <TextView
-        android:id="@+id/texto3"
-        android:layout_width="261dp"
-        android:layout_height="30dp"
-        android:fontFamily="@font/andika"
-        android:justificationMode="inter_word"
-        android:text="Antiguedad"
-        android:textAllCaps="false"
-        android:textColor="#2C2A2A"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/lista1"
-        app:layout_constraintEnd_toEndOf="@+id/lista1"
-        app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintStart_toStartOf="@+id/lista1"
-        app:layout_constraintTop_toTopOf="@+id/lista1"
-        app:layout_constraintVertical_bias="0.32" />
-
-    <TextView
-        android:id="@+id/texto15"
-        android:layout_width="261dp"
-        android:layout_height="30dp"
-        android:fontFamily="@font/andika"
-        android:justificationMode="inter_word"
-        android:text="Fase"
-        android:textAllCaps="false"
-        android:textColor="#2C2A2A"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/_dynamic"
-        app:layout_constraintEnd_toEndOf="@+id/_dynamic"
-        app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintStart_toStartOf="@+id/_dynamic"
-        app:layout_constraintTop_toBottomOf="@+id/lista1"
-        app:layout_constraintVertical_bias="0.19999999" />
-
-    <TextView
-        android:id="@+id/texto4"
-        android:layout_width="262dp"
-        android:layout_height="33dp"
-        android:fontFamily="@font/andika"
-        android:justificationMode="inter_word"
-        android:text="Tiempo de padecimiento"
-        android:textAllCaps="false"
-        android:textColor="#676464"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/lista1"
-        app:layout_constraintEnd_toEndOf="@+id/lista1"
-        app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintStart_toStartOf="@+id/lista1"
-        app:layout_constraintTop_toTopOf="@+id/lista1"
-        app:layout_constraintVertical_bias="0.64" />
-
-    <TextView
-        android:id="@+id/texto17"
-        android:layout_width="262dp"
-        android:layout_height="33dp"
-        android:fontFamily="@font/andika"
-        android:justificationMode="inter_word"
-        android:text="Tiempo de padecimiento"
-        android:textAllCaps="false"
-        android:textColor="#676464"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/_dynamic"
-        app:layout_constraintEnd_toEndOf="@+id/lista1"
-        app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintStart_toStartOf="@+id/lista1"
-        app:layout_constraintTop_toTopOf="@+id/lista1"
-        app:layout_constraintVertical_bias="0.53" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="62dp"
-        android:layout_height="79dp"
-        app:layout_constraintBottom_toBottomOf="@+id/lista1"
-        app:layout_constraintEnd_toEndOf="@+id/lista1"
-        app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintStart_toStartOf="@+id/lista1"
-        app:layout_constraintTop_toTopOf="@+id/lista1"
-        app:srcCompat="@drawable/iconoantiguedad" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="62dp"
-        android:layout_height="79dp"
-        app:layout_constraintBottom_toBottomOf="@+id/lista1"
-        app:layout_constraintEnd_toEndOf="@+id/lista1"
-        app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintStart_toStartOf="@+id/lista1"
-        app:layout_constraintTop_toTopOf="@+id/_dynamic"
-        app:srcCompat="@drawable/iconoantiguedad" />
-
-    <ListView
-        android:layout_width="362dp"
-        android:layout_height="108dp"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lista1"
-        app:layout_constraintVertical_bias="0.06999999" >
-
-    </ListView>
-
-    <TextView
-        android:id="@+id/texto9"
-        android:layout_width="261dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:fontFamily="@font/andika"
-        android:justificationMode="inter_word"
-        android:text="Medicación"
-        android:textAllCaps="false"
-        android:textColor="#2C2A2A"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/_dynamic"
-        app:layout_constraintEnd_toEndOf="@+id/_dynamic"
-        app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="@+id/_dynamic"
-        app:layout_constraintVertical_bias="0.32999998" />
-
-    <TextView
-        android:id="@+id/texto10"
-        android:layout_width="262dp"
-        android:layout_height="33dp"
-        android:fontFamily="@font/andika"
-        android:justificationMode="inter_word"
-        android:text="Medicamentos que ingiere "
-        android:textAllCaps="false"
-        android:textColor="#676464"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/_dynamic"
-        app:layout_constraintEnd_toEndOf="@+id/_dynamic"
-        app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintStart_toStartOf="@+id/_dynamic"
-        app:layout_constraintTop_toTopOf="@+id/_dynamic"
-        app:layout_constraintVertical_bias="0.73" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="62dp"
-        android:layout_height="79dp"
-        app:layout_constraintBottom_toBottomOf="@+id/_dynamic"
-        app:layout_constraintEnd_toEndOf="@+id/_dynamic"
-        app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintStart_toStartOf="@+id/_dynamic"
-        app:layout_constraintTop_toTopOf="@+id/_dynamic"
-        app:layout_constraintVertical_bias="0.64"
-        app:srcCompat="@drawable/iconofase" />
-
-    <ListView
-        android:layout_width="362dp"
-        android:layout_height="108dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/_dynamic"
-        app:layout_constraintVertical_bias="0.72">
-
-    </ListView>
+        app:layout_constraintVertical_bias="0.19" />
 
     <Button
-        android:id="@+id/inicio"
+        android:id="@+id/btn1"
         android:layout_width="148dp"
         android:layout_height="41dp"
         android:background="#595555"
@@ -250,7 +87,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/_dynamic"
-        app:layout_constraintVertical_bias="0.32" />
+        app:layout_constraintTop_toBottomOf="@+id/texto1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

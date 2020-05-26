@@ -73,7 +73,7 @@
         app:srcCompat="@drawable/imagen1" />
 
     <Button
-        android:id="@+id/inicio"
+        android:id="@+id/btn1"
         android:layout_width="148dp"
         android:layout_height="41dp"
         android:background="#595555"
