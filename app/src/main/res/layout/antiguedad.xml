@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Antiguedad">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -50,7 +50,7 @@
         android:layout_height="36dp"
         android:fontFamily="@font/andika"
         android:justificationMode="inter_word"
-        android:text="Fase"
+        android:text="Antiguedad"
         android:textAllCaps="false"
         android:textColor="#2C2A2A"
         android:textSize="16sp"
@@ -71,7 +71,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texto1"
         app:layout_constraintVertical_bias="0.48000002"
-        app:srcCompat="@drawable/iconofase" />
+        app:srcCompat="@drawable/iconoantiguedad" />
 
     <TextView
         android:id="@+id/texto6"
@@ -79,7 +79,7 @@
         android:layout_height="65dp"
         android:fontFamily="@font/andika"
         android:justificationMode="inter_word"
-        android:text="¿En que etapa de la enfermedad se encuentra?"
+        android:text="¿Hace cuanto tiempo se le diagnosticó la enfermedad? "
         android:textAllCaps="false"
         android:textColor="#2C2A2A"
         android:textSize="16sp"
@@ -105,7 +105,7 @@
             android:layout_width="match_parent"
             android:layout_height="69dp"
             android:fontFamily="@font/andika"
-            android:text="leve"
+            android:text="menos de 2 años"
             android:textColor="#2C2A2A"
             android:textSize="16sp" />
 
@@ -114,7 +114,7 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:fontFamily="@font/andika"
-            android:text="moderada"
+            android:text="entre 3 y 4 años "
             android:textColor="#2C2A2A"
             android:textSize="16sp" />
 
@@ -123,7 +123,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:fontFamily="@font/andika"
-            android:text="grave"
+            android:text="más de 5 años"
             android:textColor="#2C2A2A"
             android:textSize="16sp" />
 
@@ -145,7 +145,7 @@
         android:layout_height="41dp"
         android:background="#595555"
         android:fontFamily="@font/andika"
-        android:text="Atras"
+        android:text="Atrás"
         android:textAllCaps="false"
         android:textColor="#FDFCFC"
         android:textSize="16sp"
@@ -155,7 +155,7 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <Button
-        android:id="@+id/btnsiguiente1"
+        android:id="@+id/btnsiguiente2"
         android:layout_width="80dp"
         android:layout_height="27dp"
         android:background="#595555"

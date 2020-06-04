@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/titulo1"
-        android:layout_width="152dp"
-        android:layout_height="30dp"
+        android:layout_width="228dp"
+        android:layout_height="31dp"
         android:fontFamily="@font/andika"
         android:justificationMode="inter_word"
         android:textAllCaps="false"
@@ -26,8 +26,8 @@
 
     <TextView
         android:id="@+id/descripcion1"
-        android:layout_width="221dp"
-        android:layout_height="33dp"
+        android:layout_width="212dp"
+        android:layout_height="49dp"
         android:fontFamily="@font/andika"
         android:justificationMode="inter_word"
         android:textAllCaps="false"
@@ -61,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="96dp" />
+        app:layout_constraintGuide_begin="116dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"

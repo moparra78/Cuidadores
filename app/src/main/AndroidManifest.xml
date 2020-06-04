@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main7Activity"></activity>
-        <activity android:name=".Main6Activity" />
-        <activity android:name=".Main5Activity" />
-        <activity android:name=".Main4Activity" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".Main2Activity" />
+        <activity android:name=".Habitacion"></activity>
+        <activity android:name=".Listaespacios" />
+        <activity android:name=".Pacientelista" />
+        <activity android:name=".Segundalista" />
+        <activity android:name=".Plan" />
+        <activity android:name=".Medicacion" />
+        <activity android:name=".Fase" />
+        <activity android:name=".Antiguedad" />
+        <activity android:name=".Primeralista" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Bienvenida"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

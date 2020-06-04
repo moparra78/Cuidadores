@@ -13,10 +13,10 @@ import kotlinx.android.synthetic.main.elementolista1.view.*
 
 class Adaptador1 : BaseAdapter{
     var items = ArrayList<datositem>()
-    var contexto: Context? = null
+    var contexto: Context
 
     constructor(context: Context, items: ArrayList<datositem>) : super(){
-        this.contexto = contexto
+        this.contexto = context
         this.items = items
     }
 
@@ -39,12 +39,16 @@ class Adaptador1 : BaseAdapter{
         inflatordato.descripcion1.text = datos.descripcion!!
         return inflatordato
 
+        /*inflatordato.setOnClickListener{
+            val intent = Intent(contexto, Antiguedad::class.java)
+
+            contexto!!.startActivity(intent)
+
+        }*/
+
     }
 
 }
-
-
-
 
 
 /*

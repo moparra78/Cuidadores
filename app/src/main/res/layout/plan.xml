@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Plan">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -12,8 +12,8 @@
         android:layout_height="match_parent"
         android:background="#FBECEC"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="-73dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-109dp">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -30,11 +30,11 @@
 
     <TextView
         android:id="@+id/texto1"
-        android:layout_width="245dp"
-        android:layout_height="114dp"
+        android:layout_width="317dp"
+        android:layout_height="89dp"
         android:fontFamily="@font/andika"
         android:justificationMode="inter_word"
-        android:text="Cuidadores es una aplicación de guianza y acompañamiento a personas que cuidan pacientes de Alzheimer "
+        android:text="Cuidadores te ofrece el siguiente plan de proceso para tu paciente."
         android:textAllCaps="false"
         android:textColor="#2C2A2A"
         android:textSize="16sp"
@@ -43,6 +43,22 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.18" />
+
+    <TextView
+        android:id="@+id/texto7"
+        android:layout_width="317dp"
+        android:layout_height="89dp"
+        android:fontFamily="@font/andika"
+        android:justificationMode="inter_word"
+        android:text="Recuerda siempre atender las indicaciones del cuerpo médico"
+        android:textAllCaps="false"
+        android:textColor="#2C2A2A"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto1"
+        app:layout_constraintVertical_bias="0.120000005" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -53,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.51"
+        app:layout_constraintVertical_bias="0.56"
         app:srcCompat="@drawable/imagen1" />
 
     <Button
@@ -62,7 +78,7 @@
         android:layout_height="41dp"
         android:background="#595555"
         android:fontFamily="@font/andika"
-        android:text="Iniciar"
+        android:text="Siguiente"
         android:textAllCaps="false"
         android:textColor="#FDFCFC"
         android:textSize="16sp"
@@ -70,58 +86,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.36" />
-
-    <TextView
-        android:id="@+id/texto"
-        android:layout_width="142dp"
-        android:layout_height="23dp"
-        android:fontFamily="@font/andika"
-        android:gravity="center"
-        android:justificationMode="inter_word"
-        android:text="©Cuidadores "
-        android:textAllCaps="false"
-        android:textColor="#2C2A2A"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn1"
-        app:layout_constraintVertical_bias="0.23000002" />
-
-    <TextView
-        android:id="@+id/texto2"
-        android:layout_width="142dp"
-        android:layout_height="23dp"
-        android:fontFamily="@font/andika"
-        android:gravity="center"
-        android:justificationMode="inter_word"
-        android:text="2020"
-        android:textAllCaps="false"
-        android:textColor="#2C2A2A"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/texto"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/btnsiguiente1"
-        android:layout_width="80dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginLeft="49dp"
-        android:background="#595555"
-        android:fontFamily="@font/andika"
-        android:text="Siguiente"
-        android:textAllCaps="false"
-        android:textColor="#FDFCFC"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.97" />
+        app:layout_constraintVertical_bias="0.31" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

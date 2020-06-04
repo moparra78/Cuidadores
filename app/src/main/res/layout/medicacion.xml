@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Medicacion">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -202,7 +202,7 @@
         android:layout_height="41dp"
         android:background="#595555"
         android:fontFamily="@font/andika"
-        android:text="Atras"
+        android:text="Atrás"
         android:textAllCaps="false"
         android:textColor="#FDFCFC"
         android:textSize="16sp"
@@ -213,7 +213,7 @@
         app:layout_constraintVertical_bias="0.45" />
 
     <Button
-        android:id="@+id/btnsiguiente1"
+        android:id="@+id/btnsiguiente2"
         android:layout_width="80dp"
         android:layout_height="27dp"
         android:background="#595555"

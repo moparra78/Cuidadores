@@ -5,19 +5,20 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class Medicacion : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.medicacion)
 
-        val siguiente= findViewById<Button>(R.id.btnsiguiente1)
+        val siguiente= findViewById<Button>(R.id.btnsiguiente2)
 
         siguiente.setOnClickListener {
 
-            val intent = Intent( this@MainActivity, Main2Activity::class.java)
+            val intent = Intent( this@Medicacion, Plan::class.java)
 
             startActivity(intent)    }
+
 
     }
 }
