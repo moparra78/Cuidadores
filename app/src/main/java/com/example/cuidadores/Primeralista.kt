@@ -25,14 +25,38 @@ class Primeralista : AppCompatActivity() {
         listaa.adapter = adaptador
 
 
-        val siguiente= findViewById<Button>(R.id.btnsiguiente2)
+        val siguientea= findViewById<Button>(R.id.button)
+        val siguienteb= findViewById<Button>(R.id.button2)
+        val siguientec= findViewById<Button>(R.id.button3)
+        val continuar= findViewById<Button>(R.id.btn)
 
-        siguiente.setOnClickListener {
+        siguientea.setOnClickListener {
 
             val intent = Intent( this@Primeralista, Antiguedad::class.java)
 
-            startActivity(intent)    }
+            startActivity(intent)
+        }
 
+        siguienteb.setOnClickListener {
+
+            val intent = Intent( this@Primeralista, Fase::class.java)
+
+            startActivity(intent)
+        }
+
+        siguientec.setOnClickListener {
+
+            val intent = Intent( this@Primeralista, Medicacion::class.java)
+
+            startActivity(intent)
+        }
+
+        continuar.setOnClickListener {
+
+            val intent = Intent( this@Primeralista, Plan::class.java)
+
+            startActivity(intent)
+        }
 
     }
 }

@@ -1,7 +1,9 @@
 package com.example.cuidadores
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import kotlinx.android.synthetic.main.habitacion.*
 import java.util.*
 
@@ -11,7 +13,16 @@ class Habitacion : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.habitacion)
 
+        val atras= findViewById<Button>(R.id.btn1)
+
         leer()
+
+        atras.setOnClickListener {
+
+            val intent = Intent( this@Habitacion, Listaespacios::class.java)
+
+            startActivity(intent)
+        }
     }
 
     fun leer(){
@@ -25,8 +36,5 @@ class Habitacion : AppCompatActivity() {
 
         texto3.setText(descripcion)
     }
-
-
-
 
 }

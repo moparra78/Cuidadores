@@ -11,14 +11,14 @@ class Medicacion : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.medicacion)
 
-        val siguiente= findViewById<Button>(R.id.btnsiguiente2)
+        val atras= findViewById<Button>(R.id.btn1)
 
-        siguiente.setOnClickListener {
+        atras.setOnClickListener {
 
-            val intent = Intent( this@Medicacion, Plan::class.java)
+            val intent = Intent( this@Medicacion, Primeralista::class.java)
 
-            startActivity(intent)    }
-
+            startActivity(intent)
+        }
 
     }
 }

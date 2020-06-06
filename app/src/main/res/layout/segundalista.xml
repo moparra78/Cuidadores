@@ -6,6 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".Segundalista">
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:background="#F8E1E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.26999998" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:background="#F8E1E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.45" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -30,28 +54,13 @@
 
     <ListView
         android:id="@+id/listaa"
-        android:layout_width="348dp"
-        android:layout_height="380dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn1"
+        android:layout_width="314dp"
+        android:layout_height="379dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.63" />
-
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="148dp"
-        android:layout_height="41dp"
-        android:background="#595555"
-        android:fontFamily="@font/andika"
-        android:text="Continuar"
-        android:textAllCaps="false"
-        android:textColor="#FDFCFC"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82" />
+        app:layout_constraintVertical_bias="0.38" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

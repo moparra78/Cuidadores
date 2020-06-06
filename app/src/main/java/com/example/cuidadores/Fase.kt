@@ -11,13 +11,14 @@ class Fase : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fase)
 
-        val siguiente= findViewById<Button>(R.id.btnsiguiente2)
+        val atras= findViewById<Button>(R.id.btn1)
 
-        siguiente.setOnClickListener {
+        atras.setOnClickListener {
 
-            val intent = Intent( this@Fase, Medicacion::class.java)
+            val intent = Intent( this@Fase, Primeralista::class.java)
 
-            startActivity(intent)    }
+            startActivity(intent)
+        }
 
 
     }

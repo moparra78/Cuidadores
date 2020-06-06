@@ -7,24 +7,20 @@
     tools:context=".Primeralista">
 
     <Button
-        android:id="@+id/btnsiguiente2"
-        android:layout_width="80dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginLeft="49dp"
+        android:id="@+id/btn"
+        android:layout_width="148dp"
+        android:layout_height="41dp"
         android:background="#595555"
         android:fontFamily="@font/andika"
-        android:text="Siguiente"
+        android:text="Continuar"
         android:textAllCaps="false"
         android:textColor="#FDFCFC"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.97" />
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -66,12 +62,51 @@
 
     <ListView
         android:id="@+id/listaa"
-        android:layout_width="348dp"
-        android:layout_height="380dp"
+        android:layout_width="318dp"
+        android:layout_height="377dp"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texto1"
-        app:layout_constraintVertical_bias="0.19999999" />
+        app:layout_constraintVertical_bias="0.19999999">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:background="#F8E1E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:background="#F8E1E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.47000003" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:background="#F8E1E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.62" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

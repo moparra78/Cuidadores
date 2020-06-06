@@ -23,13 +23,22 @@ class Segundalista : AppCompatActivity() {
         adaptador!!.notifyDataSetChanged()
         listaa.adapter = adaptador
 
-        val siguiente= findViewById<Button>(R.id.btn1)
+        val siguientea= findViewById<Button>(R.id.button4)
+        val siguienteb= findViewById<Button>(R.id.button5)
 
-        siguiente.setOnClickListener {
+        siguientea.setOnClickListener {
 
             val intent = Intent( this@Segundalista, Pacientelista::class.java)
 
-            startActivity(intent)    }
+            startActivity(intent)
+        }
+
+        /*siguienteb.setOnClickListener {
+
+            val intent = Intent( this@Segundalista, Pacientelista::class.java) AQUI SERIA LA INTERFAZ CUIDADOR
+
+            startActivity(intent)
+        }*/
 
 
     }

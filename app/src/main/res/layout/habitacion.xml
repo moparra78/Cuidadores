@@ -6,26 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Habitacion">
 
-    <Button
-        android:id="@+id/btnsiguiente2"
-        android:layout_width="80dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginLeft="49dp"
-        android:background="#595555"
-        android:fontFamily="@font/andika"
-        android:text="Siguiente"
-        android:textAllCaps="false"
-        android:textColor="#FDFCFC"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.97" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -84,7 +64,7 @@
         android:layout_height="41dp"
         android:background="#595555"
         android:fontFamily="@font/andika"
-        android:text="Continuar"
+        android:text="Atrás"
         android:textAllCaps="false"
         android:textColor="#FDFCFC"
         android:textSize="16sp"

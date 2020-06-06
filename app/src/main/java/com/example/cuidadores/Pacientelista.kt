@@ -24,13 +24,22 @@ class Pacientelista : AppCompatActivity() {
         adaptador!!.notifyDataSetChanged()
         listaa.adapter = adaptador
 
-        val siguiente= findViewById<Button>(R.id.btnsiguiente2)
+        val siguientea= findViewById<Button>(R.id.button6)
+        val atras= findViewById<Button>(R.id.btn1)
 
-        siguiente.setOnClickListener {
+        siguientea.setOnClickListener {
 
             val intent = Intent( this@Pacientelista, Listaespacios::class.java)
 
-            startActivity(intent)    }
+            startActivity(intent)
+        }
+
+        atras.setOnClickListener {
+
+            val intent = Intent( this@Pacientelista, Segundalista::class.java)
+
+            startActivity(intent)
+        }
 
 
     }

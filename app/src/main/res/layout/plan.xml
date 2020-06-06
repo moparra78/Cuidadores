@@ -78,7 +78,7 @@
         android:layout_height="41dp"
         android:background="#595555"
         android:fontFamily="@font/andika"
-        android:text="Siguiente"
+        android:text="Continuar"
         android:textAllCaps="false"
         android:textColor="#FDFCFC"
         android:textSize="16sp"

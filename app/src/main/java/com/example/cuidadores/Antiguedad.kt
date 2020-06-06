@@ -11,13 +11,14 @@ class Antiguedad : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.antiguedad)
 
-        val siguiente= findViewById<Button>(R.id.btnsiguiente2)
+        val atras= findViewById<Button>(R.id.btn1)
 
-        siguiente.setOnClickListener {
+        atras.setOnClickListener {
 
-            val intent = Intent( this@Antiguedad, Fase::class.java)
+            val intent = Intent( this@Antiguedad, Primeralista::class.java)
 
-            startActivity(intent)    }
+            startActivity(intent)
+        }
 
     }
 }
